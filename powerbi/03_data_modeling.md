@@ -9,12 +9,13 @@ All KPIs and analytical metrics originate from validated SQL views to ensure con
 
 Each Power BI report page connects directly to SQL Server analytical views (not CSV files).
 
-Report Page / Dashboard	SQL Server View
-Executive Overview	bank.KPI_Executive_Overview
-Risk & Default Analysis	bank.Risk_Default_Analysis
-Portfolio Distribution	bank.Portfolio_Distribution
-Loan Default Trends	bank.Loan_Default_Trends
-Drill-down / Exploration	bank.Loan_Risk_Master
+| Report Page / Dashboard  | SQL Server View             |
+| ------------------------ | --------------------------- |
+| Executive Overview       | `bank.KPI_Executive_Overview` |
+| Risk & Default Analysis  | `	bank.Risk_Default_Analysis` |
+| Portfolio Distribution   | `bank.Portfolio_Distribution` |
+| Loan Default Trends      | `bank.Loan_Default_Trends`    |
+| Drill-down / Exploration | `bank.Loan_Risk_Master`       |
 
 SQL Server is the single source of truth. Power BI consumes curated analytical views rather than raw tables.
 
